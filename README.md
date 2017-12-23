@@ -13,6 +13,6 @@ You will use MovieLens dataset, which is one of the most common datasets used wh
 CONCLUSION:
 You can see how the model based and memory based collaborative filtering techniques differ by comparing their root mean square error values. 
 
-NOTE: FEEL FREE TO USE THE CODE AND DEVELOPE UPON IT !
+NOTE: FEEL FREE TO USE THE CODE AND DEVELOP UPON IT !
 
 THANK YOU
