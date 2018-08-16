@@ -57,6 +57,7 @@ print ('Item-based MemoryCF RMSE: ' + str(rmse(item_prediction, test_data_matrix
 sparsity=round(1.0-len(df)/float(n_users*n_items),3)
 print ('The sparsity level of MovieLens100K is ' +  str(sparsity*100) + '%')
 
+#update: Using package for SVD
 from scipy.sparse.linalg import svds
 
 #get SVD components from train matrix. Choose k.
