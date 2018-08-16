@@ -59,10 +59,10 @@ print ('The sparsity level of MovieLens100K is ' +  str(sparsity*100) + '%')
 
 #update: Using package for SVD
 from scipy.sparse.linalg import svds
-
 #get SVD components from train matrix. Choose k.
 u, s, vt = svds(train_data_matrix, k = 20)
 s_diag_matrix=np.diag(s)
+
 X_pred = np.dot(np.dot(u, s_diag_matrix), vt)
 print ('User-based ModelCF MSE: ' + str(rmse(X_pred, test_data_matrix)))
 
